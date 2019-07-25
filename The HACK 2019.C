@@ -20,7 +20,8 @@ Servo servo3;
 
 int pos = 0;    // variable to store the servo position
 
-void setup() {
+void setup()
+{
   servo1.attach(9);
   servo2.attach(11);
   servo3.attach(10);
@@ -34,7 +35,8 @@ void setup() {
   Serial.begin(115200);
 }
 
-void loop() {
+void loop()
+{
   int difA0;
   int difA1;
   int sensorValueA0_1 = analogRead(0);
